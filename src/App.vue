@@ -86,54 +86,55 @@ export default {
       score: 0,
       questions: [
         {
-          question: "How many days makes a one ?",
+          question:
+            "We can pass original dom event into methods using ___ variable ?",
           ans: {
-            optionA: "10 days",
-            optionB: "14 days",
-            optionC: "5 days",
-            optionD: "7 days",
+            optionA: "value",
+            optionB: "$value",
+            optionC: "$event",
+            optionD: "$e",
+          },
+          correctOption: "optionC",
+        },
+        {
+          question: "A static component can be cached by usnig ___ directive ?",
+          ans: {
+            optionA: "v-passive",
+            optionB: "v-cached",
+            optionC: "v-self",
+            optionD: "v-once",
           },
           correctOption: "optionD",
         },
         {
-          question: "How many days makes a two ?",
+          question: "We can aviod prop drilling in vuejs using ___ Api ?",
           ans: {
-            optionA: "10 days",
-            optionB: "14 days",
-            optionC: "5 days",
-            optionD: "7 days",
+            optionA: "Context Api",
+            optionB: "template refs",
+            optionC: "provide/inject",
+            optionD: "slots",
           },
-          correctOption: "optionD",
+          correctOption: "optionC",
         },
         {
-          question: "How many days makes a three ?",
+          question: "Which guard supports the callback function ?",
           ans: {
-            optionA: "10 days",
-            optionB: "14 days",
-            optionC: "5 days",
-            optionD: "7 days",
+            optionA: "beforeRouteEnter",
+            optionB: "beforeRouteUpdate",
+            optionC: "beforeRouteLeave",
+            optionD: "beforeRouteEnter",
           },
-          correctOption: "optionD",
+          correctOption: "optionA",
         },
         {
-          question: "How many days makes a four ?",
+          question: "Which history mode has bad impact on SEO ?",
           ans: {
-            optionA: "10 days",
-            optionB: "14 days",
-            optionC: "5 days",
-            optionD: "7 days",
+            optionA: "HTML 5 Mode",
+            optionB: "Hash Mode",
+            optionC: "HTML ",
+            optionD: "Router Mode",
           },
-          correctOption: "optionD",
-        },
-        {
-          question: "How many days makes a five ?",
-          ans: {
-            optionA: "10 days",
-            optionB: "14 days",
-            optionC: "5 days",
-            optionD: "7 days",
-          },
-          correctOption: "optionD",
+          correctOption: "optionB",
         },
       ],
     };
@@ -210,7 +211,7 @@ body {
   -moz-box-shadow: 0 10px 6px -6px #777;
   box-shadow: 0 10px 6px -6px #777;
   transition: 0.3s;
-  min-width: 35em;
+  width: 35em;
   min-height: 20em;
   margin-inline: auto;
   box-sizing: border-box;
